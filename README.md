@@ -6,4 +6,5 @@
 - [ ] RSS feed  
 - [ ] Parser für das einpflegen von content  
 - [ ] Grundstruktur der Seite  
+- [ ] Countdown zum nächsten Treffen
 - [ ] vieles mehr!
