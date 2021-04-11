@@ -1,24 +1,23 @@
  body {
   font-family: Fira;
   padding: 20px;
-  background: #f1f1f1;
-  align-items: center;
-  display: grid;
+
+  background-image: url("../resources/y-so-serious-white.png");
+  background-repeat: repeat;
+  
+  align-items: flex-start;
+  display: flexbox;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
-/* general styling */
+
+/* countdown timer */
+
 * {
   box-sizing: border-box;
-  margin: 5;
+  /* margin: 5; */
   /* padding: 5; */
-}
-  
-html,
-body {
-  /* height: 100%; */
-  margin: 0;
 }
   
 .container {
@@ -74,11 +73,15 @@ li span {
   }
 }
 
+
+/* articles */
+
 #article {
   margin: 4% auto;
-  background-color: lightgrey;
+  background-color: white;
+  box-shadow: 2px 2px 5px lightgrey;
   width: 80%;
-  border: 1px solid black;
+  border: 0px solid black;
   padding: 50px;
   border-radius: 15px;
 }
