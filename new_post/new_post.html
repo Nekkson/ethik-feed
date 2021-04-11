@@ -9,29 +9,47 @@
 </head>
 
 <body>
-  <label for="synopsis">Link:</label>
-  <input type="link" id="link" name="link"><br><br>
-
-  <label for="title">Title:</label>
-  <input type="text" id="title" name="title"><br><br>
-
-  <label for="author">Author:</label>
-  <input type="text" id="author" name="author"><br><br>
-
-  <label for="synopsis">Synopsis:</label>
-  <input type="text" id="synopsis" name="synopsis"><br><br>
-
-  <label for="image">Image:</label>
-  <input type="file" id="image" name="image"><br><br>
-  <input type="submit" value="Upload image"><br><br>
-
-  <input type="submit" value="Submit">
-
+  <form name="data" >
+    <table cellspacing = "2" cellpadding = "2" border = "0">
+      <tr>
+        <td align="right">Link:</td>
+        <td><input type="link" id="Link" name="Link" /></td>
+      </tr>
+      <tr>
+        <td align="right">Title:</td>
+        <td><input type="text" id="Title" name="Title" /></td>
+      </tr>
+      <tr>
+        <td align="right">Author:</td>
+        <td><input type="text" id="Author" name="Author" /></td>
+      </tr>
+      <tr>
+        <td align="right">Image:</td>
+        <td><input type="file" id="Image" name="Image" /></td>
+      </tr>
+      <tr>
+        <td></td><td><input type="submit" value="Upload image" /></td>
+      </tr>
+      
+      
+    </table>
+    
+  </form>
   <script>
-  var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
-    var fso = new ActiveXObject("Scripting.FileSystemObject");
-    var FILENAME = 'articles.xml';
+    function getUserData()
+    {
+      var content = new Array();
+      content[0] = document.data.Link.focus();
+      content[1] = document.data.Title.focus();
+      content[2] = document.data.Author.focus();
+      content[3] = document.data.Synopsis.focus();
+      content[4] = document.data.Image.focus();
+    }
 
+    var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    var FILENAME = 'articles/articles.xml';
+    
     function SaveXML(UserData) 
     {   
         var file = fso.CreateTextFile(FILENAME, true);
