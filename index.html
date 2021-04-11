@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
@@ -17,22 +16,20 @@
   <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- linking the stylesheet -->
   <link rel="stylesheet" href="css/main.css">
   <title>Ethik und Informatik</title>
 </head>
 
 <body>
-  <div align="center">
-    <a href="about/about.html"><img src="resources/logo/logo_verbose.png" width="20%"></img></a>
-  </div>
 
-  <!-- <div class="container">
-  <h1><a href="about/about.html">Ethik und Informatik</a></h1></div> -->
-   
-
+  <div class="header">
+    <a href="index.html"><img src="resources/logo/logo_verbose.png" width=200em></img></a>
+    <p>Sammlung kontroverser Beispiele und Beiträge, kuratiert von <a href="mailto:ethikinformatik@uni-weimar.de?subject=Beitrag für den Feed">ethikinformatik@uni-weimar.de</a></p>
+  </div> 
+  
+  <!-- countdown timer -->
   <div class="container">
-    <h2 id="headline">Countdown bis zum nächsten Treffen:</h2>
+    <h3 id="headline">Countdown bis zum nächsten Treffen:</h3>
     <div id="countdown">
       <ul>
         <li><span id="days"></span>Tage</li>
@@ -129,7 +126,8 @@
   }
   </script>
 
-<!-- function to add dummy Article -->
+
+<!-- function to add dummy article -->
 <script>
   function addArticle(article_item, index) {
 
@@ -174,5 +172,12 @@
   </script>
 
   <div id="articles"></div>
+
+  <footer>
+    Copyright &copy; <script>document.write(new Date().getFullYear())</script>
+    Ethik und Informatik (FsR Medien der Bauhaus-Universität Weimar). Alle Rechte vorbehalten. <br>
+    
+  </footer>
+
 </body>
 </html>
