@@ -4,7 +4,7 @@
 <h2 align="center">TODOs:</h2>
 
 - [ ] RSS feed  
-- [ ] Parser für das einpflegen von content  
-- [ ] Grundstruktur der Seite  
-- [ ] Countdown zum nächsten Treffen
+- [x] Parser für das einpflegen von content  
+- [x] Grundstruktur der Seite  
+- [x] Countdown zum nächsten Treffen
 - [ ] vieles mehr!
