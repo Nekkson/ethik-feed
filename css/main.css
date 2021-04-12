@@ -6,9 +6,10 @@
   margin-left: 10%;
   margin-right: 10%;
 
-  background-image: url("../resources/background/y-so-serious-white.png");
+  background-color: brown;
+  /* background-image: url("../resources/background/y-so-serious-white.png");
   background-repeat: repeat;
-  background-size: 250px 250px;
+  background-size: 250px 250px; */
  
   align-items: flex-start;
   display: grid;
@@ -110,13 +111,12 @@ li span {
 }
 
 .footer {
-  -moz-box-shadow:    inset 0 0 10px #000000;
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow:         inset 0 0 10px #000000;
-  
-  background-color: ;
+  background-color: rgb(54, 54, 54);
+
+  width: 100%;
   padding: 30px;
+
   text-align: left;
-  color: rgb(50, 50, 50);
+  color: rgb(201, 201, 201);
   font-size: 1rem;
 }
