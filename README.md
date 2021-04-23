@@ -7,4 +7,5 @@
 - [x] Parser für das einpflegen von content  
 - [x] Grundstruktur der Seite  
 - [x] Countdown zum nächsten Treffen
+- [ ] Rick roll einbauen
 - [ ] vieles mehr!
