@@ -40,7 +40,7 @@
     </div>
     <div class="message">
       <div id="content">
-        <p> Kommt in unseren Online-Raum!</p>
+        <p> Kommt in den M18 Garten!</p>
       </div>
     </div>
     <div class="content">
@@ -48,135 +48,17 @@
     </div>
   </div>
 
-<script>
-  (function () {
-    const second = 1000,
-      minute = second * 60,
-      hour = minute * 60,
-      day = hour * 24;
-   
-    let birthday = "Apr 7, 2021 17:00:00",
-      countDown = new Date(birthday).getTime(),
-      x = setInterval(function () {
-        let now = new Date().getTime(),
-          distance = countDown - now;
-        while (distance < -hour*2) {
-          distance = distance + 14*day;
-        }
-        (document.getElementById("days").innerText = Math.floor(distance / day)),
-          (document.getElementById("hours").innerText = Math.floor(
-            (distance % day) / hour
-          )),
-          (document.getElementById("minutes").innerText = Math.floor(
-            (distance % hour) / minute
-          )),
-          (document.getElementById("seconds").innerText = Math.floor(
-            (distance % minute) / second
-          ));
-   
-        //do something later when date is reached
-        if (distance < 0) {
-          let headline = document.getElementById("headline"),
-            countdown = document.getElementById("countdown"),
-            content = document.getElementById("content");
-          countdown.style.color = "#eb1c1c";
-          headline.innerText = "Wir treffen uns jetzt!";
-          countdown.style.display = "none";
-          content.style.display = "block";
-   
-          clearInterval(x);
-        } if (distance < 3600000 * 2) {
-          let headline = document.getElementById("headline"),
-            countdown = document.getElementById("countdown"),
-            content = document.getElementById("content");
-          countdown.style.color = "#eb1c1c";
-
-        }
-        //seconds
-      }, 0);
-  })();
-   
-  </script>
-
-
-<!-- function to load XML file-->
-<script>
-  function loadXml(xmlfile_path) {
-      fetch (xmlfile_path)
-          .then (function (response) {
-              // Antwort kommt als Text-String
-              return response.text();
-          })
-          .then (function (data) {
-              console.log (data);			  // schnell mal in der Konsole checken
-              
-              // String in ein XML-DOM-Objekt umwandeln
-              let parser = new DOMParser (),
-                  xmlDoc = parser.parseFromString (data, 'text/xml');
-              console.log (xmlDoc.getElementsByTagName ('article'));
-              console.log ("item "  + xmlDoc.getElementsByTagName ('article')[0].children[0].textContent);
-              var articles = xmlDoc.getElementsByTagName("article")
-              var i;
-              for (i = 0; i < articles.length; i++) {
-                  addArticle(articles[i], i);
-              } 
-      }).catch (function (error) {
-          console.log ("Fehler: bei Auslesen der XML-Datei " + error);
-      });
-  }
-  </script>
-
-
-<!-- function to add dummy article -->
-<script>
-  function addArticle(article_item, index) {
-
-  // Get articles element
-  var articles = document.getElementById("articles");
-   
-   // Create element + set contents
-   var article = document.createElement('div');//document.createElement("div id=\"article\"");
-   article.setAttribute("id", "article");
-   
-   // Create article elements
-   var title = document.createElement('div');
-   title.innerHTML = article_item.children[1].textContent;
-   title.setAttribute("id", "title");
-   article.appendChild(title);
-
-   var link = document.createElement('div');
-   link.innerHTML = article_item.children[0].textContent;
-   link.setAttribute("id", "link");
-   article.appendChild(link);
-
-   var author = document.createElement('div');
-   author.innerHTML = article_item.children[2].textContent;
-   author.setAttribute("id", "author");
-   article.appendChild(author);
-
-   var synopsis = document.createElement('div');
-   synopsis.innerHTML = article_item.children[3].textContent;//"Have yourself a merry little christmas.";
-   synopsis.setAttribute("id", "synopsis");
-   article.appendChild(synopsis);
-   
-   articles.appendChild(article);
-
-  }
-  </script>
-
-  <!-- function to load and add articles on page request -->
-  <script>
-  window.addEventListener("load", function(){
-      loadXml("articles/articles.xml");
-  });
-  </script>
+  <script src="countdown.js"></script>
+  <script src="loadXML.js"></script>
+  <script src="loadDummy.js"></script>
+  <script src="onPageRequest.js"></script>
 
   <div id="articles"></div>
 
 <!--  <div class=footer>
     Copyright &copy; <script>document.write(new Date().getFullYear())</script>
     Ethik und Informatik (FsR Medien der Bauhaus-Universität Weimar). Alle Rechte vorbehalten. <br>
-  </div>-->
+ </div>-->
 
 </body>
 </html>
