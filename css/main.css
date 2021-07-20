@@ -24,65 +24,64 @@ a:visited{ color: #800080; border-bottom-color: rgba(128, 0, 128, 0.2); text-dec
 }
 
 /* countdown timer */
-* {
-  box-sizing: border-box;
-  /* margin: 5; */
-  /* padding: 5; */
-}
-  
-.container {
-  color: #333;
-  margin: 0 auto;
-  text-align: center;
-}
-  
-h1 {
-  font-weight: normal;
-  letter-spacing: 0.125rem;
-  text-transform: uppercase;
-}
-  
-li {
-  display: inline-block;
-  font-size: 1.5em;
-  list-style-type: none;
-  padding: 1em;
-  text-transform: uppercase;
-}
-  
-li span {
-  display: block;
-  font-size: 4.5rem;
-}
-  
-.message {
-  font-size: 2rem;
-}
-  
-#content {
-  display: none;
-  padding: 1rem;
-}
-  
-.emoji {
-  padding: 0 0.25rem;
-}
-  
-@media all and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+    /* margin: 5; */
+    /* padding: 5; */
+  }
+    
+  .container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+  }
+    
   h1 {
-    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
   }
-  
-  li {
-    font-size: 1.125rem;
-    padding: 0.75rem;
+    
+#countdown li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
   }
-  
+    
   li span {
-    font-size: 3.375rem;
+    display: block;
+    font-size: 4.5rem;
   }
-}
-
+    
+  .message {
+    font-size: 2rem;
+  }
+    
+  #content {
+    display: none;
+    padding: 1rem;
+  }
+    
+  .emoji {
+    padding: 0 0.25rem;
+  }
+    
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+    li {
+      font-size: 1.125rem;
+      padding: 0.75rem;
+    }
+    
+    li span {
+      font-size: 3.375rem;
+    }
+  }
 
 /* articles */
 
@@ -101,7 +100,7 @@ li span {
 }
 
 #link {
-  padding-bottom: 0.5em;
+  padding-top: 0.5em;
   font-size: 1em;
 }
 

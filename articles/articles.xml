@@ -1,103 +1,39 @@
 <?xml version="1.0" ?>
 <xml>
 	<article>
-		 <link>https://thisisasamplelink.io</link>
-		  <title>The title would be written in here</title>
-		  <author>Maria Musterfrau</author>
-		  <synopsis>This was a triumph.
-			I'm making a note here:
-			HUGE SUCCESS.
-			It's hard to overstate
-			My satisfaction.
-			Aperture Science
-			We do what we must
-			Because we can.
-			For the good of all of us.
-			Except the ones who are dead.
-			But there's no sense crying
-			Over every mistake.
-			You just keep on trying
-			Till you run out of cake.
-			And the Science gets done.
-			And you make a neat gun.
-			For the people who are
-			Still alive.
+		 <link>https://podcasts.apple.com/de/podcast/diminished-reality/id1406377324</link>
+		  <title>Unser Diskussionsthema am Freitag: Diminished Reality</title>
+		  <author>Ludwig</author>
+		  <synopsis>
+		  	<p><strong>Diminished Reality - Eine Perspektive für die Identitätspolitik?</strong><br />Diskriminierung, beispielsweise aufgrund kultureller, ethnischer, sozialer oder sexueller Merkmale, ist überall auf der Welt alltäglich. Der Weg zu einer toleranten Gesellschaft scheint fern und beschwerlich. Auch wenn wie es uns wünschen, was ist wenn wir eine Realität nicht erschaffen können, in der alle Menschen eine tolerante Lebensweise akzeptieren? Wäre es dann ein Kompromiss jedem Menschen seine eigene Realität zu geben?<br />Im Gegensatz zur Augmentierten Realität (Augmented Reality), bei welcher die Umgebung des Benutzers durch virtuelle Objekte erweitert wird, werden bei Diminished Reality (DR) Bestandteile der Realität aus der Sicht des Betrachters entfernt. Basierend auf Computer-Vision-Techniken werden unerwünschte Bildelemente erkannt und durch andere Bildelemente ersetzt, sodass für den Betrachter ein insgesamt plausibler und konsistenter Gesamteindruck entsteht.<br />In der Zukunft könnte also jeder Mensch die Welt so sehen, wie er oder sie sie sich wünscht. Eine Realität in der alle Frauen lange Haare tragen, man keinen Obdachlosen auf den Straßen begegnet oder jede/r eine Brille trägt...</p>
+			<p>Mehr Infos:</p>
+			<ul>
+			<li><a href="https://www.tu-ilmenau.de/universitaet/fakultaeten/fakultaet-wirtschaftswissenschaften-und-medien/profil/institute-und-fachgebiete/fachgebiet-virtuelle-welten-und-digitale-spiele/forschung/diminished-reality" >https://www.tu-ilmenau.de/universitaet/fakultaeten/fakultaet-wirtschaftswissenschaften-und-medien/profil/institute-und-fachgebiete/fachgebiet-virtuelle-welten-und-digitale-spiele/forschung/diminished-reality</a></li>
+			<li><a href="https://podcasts.apple.com/de/podcast/diminished-reality/id1406377324?i=1000526808306" >https://podcasts.apple.com/de/podcast/diminished-reality/id1406377324?i=1000526808306</a></li>
+			</ul>
+			<p>Filmempfehlung:</p>
+			<ul>
+			<li>The Congress</li>
+			</ul>
 			</synopsis>
 		  <imageref>Where the image is located in the webspace.</imageref>
 	</article>
+	
 	<article>
-		 <link>https://thisisasamplelink.io</link>
-		  <title>The title would be written in here</title>
-		  <author>Maria Musterfrau</author>
-		  <synopsis>This was a triumph.
-			I'm making a note here:
-			HUGE SUCCESS.
-			It's hard to overstate
-			My satisfaction.
-			Aperture Science
-			We do what we must
-			Because we can.
-			For the good of all of us.
-			Except the ones who are dead.
-			But there's no sense crying
-			Over every mistake.
-			You just keep on trying
-			Till you run out of cake.
-			And the Science gets done.
-			And you make a neat gun.
-			For the people who are
-			Still alive.
+		 <link>https://www.youtube.com/watch?v=PqbB07n_uQ4</link>
+		  <title>Wie es ist ein Computer zu sein...</title>
+		  <author>Ludwig</author>
+		  <synopsis>
+		  GPT-3 ist ein intelligentes Programm. Es wurde geschaffen,
+		   um mit  Hilfe von KI und riesigen Datenmengen natürliche 
+		   Sprache zu  verarbeiten.  Doch reicht das aus, um ein Bewusstsein
+		    zu entwickeln? Wir  können GPT-3 selbst fragen...
+			[<a href="https://www.youtube.com/watch?v=PqbB07n_uQ4">What It's Like To be a Computer: An Interview with GPT-3</a>]
+			<br /> ... und trotzdem sind wir danach nicht schlauer. Denn woher können  wir wissen, dass GPT-3 sich diese Antworten nicht aus Textbausteinen  ihrer Datenbank zusammenreimt? <br />
+Dieses Problem beschreibt der Philosoph John Searle bereits 1980 in seinem <a href="https://de.wikipedia.org/wiki/Chinesisches_Zimmer">Gedankenexperiment vom chinesischen Zimmer</a>.  Und es stellt sich die Frage: Sind wir überhaupt je in der Lage fremdes  Bewusstsein zu identifizieren? Und falls es sich nicht beweisen lässt,  wie gehen wir mit bewusst wirkenden Algorithmen um?
+Immerhin: Vor 200 Jahren sah Descartes noch Tiere als gedankenlose Automaten.
 			</synopsis>
 		  <imageref>Where the image is located in the webspace.</imageref>
 	</article>
-		<article>
-		 <link>https://thisisasamplelink.io</link>
-		  <title>The title would be written in here</title>
-		  <author>Maria Musterfrau</author>
-		  <synopsis>This was a triumph.
-			I'm making a note here:
-			HUGE SUCCESS.
-			It's hard to overstate
-			My satisfaction.
-			Aperture Science
-			We do what we must
-			Because we can.
-			For the good of all of us.
-			Except the ones who are dead.
-			But there's no sense crying
-			Over every mistake.
-			You just keep on trying
-			Till you run out of cake.
-			And the Science gets done.
-			And you make a neat gun.
-			For the people who are
-			Still alive.
-			</synopsis>
-		  <imageref>Where the image is located in the webspace.</imageref>
-	</article>
-	<article>
-		 <link>https://thisisasamplelink.io</link>
-		  <title>The title would be written in here</title>
-		  <author>Maria Musterfrau</author>
-		  <synopsis>This was a triumph.
-			I'm making a note here:
-			HUGE SUCCESS.
-			It's hard to overstate
-			My satisfaction.
-			Aperture Science
-			We do what we must
-			Because we can.
-			For the good of all of us.
-			Except the ones who are dead.
-			But there's no sense crying
-			Over every mistake.
-			You just keep on trying
-			Till you run out of cake.
-			And the Science gets done.
-			And you make a neat gun.
-			For the people who are
-			Still alive.
-			</synopsis>
-		  <imageref>Where the image is located in the webspace.</imageref>
-	</article>
+
 </xml>
